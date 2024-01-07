@@ -1,0 +1,462 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body main #secOne {
+  background-color: rgb(234, 253, 255);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 110px 0;
+}
+body main #secOne .secContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 60%;
+}
+body main #secOne .secContent .contentOne {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+body main #secOne .secContent .contentOne h2 {
+  width: 80%;
+  font-size: 45px;
+  font-weight: 800;
+  color: black;
+}
+body main #secOne .secContent .contentOne p {
+  font-size: 14px;
+  color: gray;
+}
+body main #secOne .secContent .contentOne button {
+  background-image: linear-gradient(16deg, #ff005a 0%, #ff5d2d 64%, #ff7300 100%);
+  color: white;
+  width: 120px;
+  height: 40px;
+  font-size: 10px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+}
+body main #secOne .secContent .contentOne button:hover {
+  background-image: linear-gradient(16deg, #ff3c00 0%, #ff812d 64%, #ffd900 100%);
+  color: white;
+  padding: 10px 32px;
+  font-size: 10px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.9s;
+}
+body main #secOne .secContent .contentTwo img {
+  width: 100%;
+}
+body main #secTwo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 110px 0;
+}
+body main #secTwo .secContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body main #secTwo .secContent .contentOne {
+  padding-bottom: 50px;
+  width: 70%;
+}
+body main #secTwo .secContent .contentOne .content {
+  display: flex;
+  justify-content: center;
+}
+body main #secTwo .secContent .contentOne .content h2 {
+  font-size: 25px;
+  font-weight: 700;
+}
+body main #secTwo .secContent .contentTwo {
+  width: 70%;
+  display: flex;
+  gap: 30px;
+}
+body main #secTwo .secContent .contentTwo .content {
+  display: flex;
+}
+body main #secTwo .secContent .contentTwo .content .textContent p {
+  font-size: 12px;
+}
+body main #secTwo .secContent .contentTwo .content .textContent h2 {
+  width: 200px;
+  font-size: 18px;
+  font-weight: 700;
+}
+body main #secTwo .secContent .contentTwo .content img {
+  width: 200px;
+}
+body main #secThree {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 110px 0;
+}
+body main #secThree .secContent {
+  width: 70%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+body main #secThree .secContent .contentOne {
+  padding-bottom: 50px;
+}
+body main #secThree .secContent .contentOne .content {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 20px;
+}
+body main #secThree .secContent .contentOne .content h2 {
+  font-size: 30px;
+  color: black;
+  font-weight: 700;
+}
+body main #secThree .secContent .contentOne .content h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: gray;
+}
+body main #secFour {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 110px 0;
+  background-color: rgb(234, 253, 255);
+}
+body main #secFour .secContent {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main #secFour .secContent .contentOne {
+  padding-bottom: 50px;
+  display: flex;
+  gap: 100px;
+}
+body main #secFour .secContent .contentOne .content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+body main #secFour .secContent .contentOne .content img {
+  width: 320px;
+}
+body main #secFour .secContent .contentOne .content h2 {
+  width: 350px;
+  font-size: 35px;
+  font-weight: 700;
+}
+body main #secFour .secContent .contentOne .content .dateContent {
+  padding-top: 20px;
+  display: flex;
+  gap: 40px;
+}
+body main #secFour .secContent .contentOne .content .dateContent .content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main #secFour .secContent .contentOne .content .dateContent .content p {
+  position: absolute;
+  top: -10px;
+  font-size: 10px;
+  font-weight: 700;
+  color: gray;
+}
+body main #secFour .secContent .contentOne .content .dateContent .content h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+}
+body main #secFour .secContent .contentOne .content form {
+  display: flex;
+}
+body main #secFour .secContent .contentOne .content form input {
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  width: 250px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+body main #secFour .secContent .contentOne .content form button {
+  background-image: linear-gradient(16deg, #ff005a 0%, #ff5d2d 64%, #ff7300 100%);
+  color: white;
+  width: 120px;
+  height: 40px;
+  font-size: 10px;
+  font-weight: 700;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+body main #secFour .secContent .contentOne .content form button:hover {
+  background-image: linear-gradient(16deg, #ff3c00 0%, #ff812d 64%, #ffd900 100%);
+  color: white;
+  padding: 10px 32px;
+  font-size: 10px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.9s;
+}
+body main #secFive {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 110px 0;
+}
+body main #secFive .secContent {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+body main #secFive .secContent .contentOne {
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+body main #secFive .secContent .contentOne .content {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 20px;
+}
+body main #secFive .secContent .contentOne .content h2 {
+  font-size: 30px;
+  color: black;
+  font-weight: 700;
+}
+body main #secFive .secContent .contentOne .content h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: gray;
+}
+body main #secFive .secContent .contentTwo .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body main #secFive .secContent .contentTwo .content img {
+  width: 80%;
+}
+body main #secFive .secContent .contentTwo .content h2 {
+  font-size: 16px;
+  font-weight: 700;
+}
+body main #secFive .secContent .contentTwo .content p {
+  font-size: 14px;
+  font-weight: 400;
+  color: gray;
+}
+body main #secSix {
+  background-image: url(/assets/img/subscribe_area.webp);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 110px 0;
+  background-size: cover;
+}
+body main #secSix .secContent {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main #secSix .secContent .contentOne {
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+body main #secSix .secContent .contentOne .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+body main #secSix .secContent .contentOne .content h2 {
+  font-size: 35px;
+  color: rgb(24, 24, 24);
+  font-weight: 700;
+  width: 500px;
+  text-align: center;
+}
+body main #secSix .secContent .contentOne .content h3 {
+  font-size: 10px;
+  font-weight: 600;
+  color: #ff005a;
+}
+body main #secSix .secContent .contentOne .content form {
+  display: flex;
+}
+body main #secSix .secContent .contentOne .content form input {
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  width: 250px;
+  font-size: 12px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+body main #secSix .secContent .contentOne .content form button {
+  background-image: linear-gradient(16deg, #ff005a 0%, #ff5d2d 64%, #ff7300 100%);
+  color: white;
+  width: 120px;
+  height: 40px;
+  font-size: 10px;
+  font-weight: 700;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+body main #secSix .secContent .contentOne .content form button:hover {
+  background-image: linear-gradient(16deg, #ff3c00 0%, #ff812d 64%, #ffd900 100%);
+  color: white;
+  padding: 10px 32px;
+  font-size: 10px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.9s;
+}
+body main #secSeven {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 110px 0;
+}
+body main #secSeven .secContent {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main #secSeven .secContent .contentOne {
+  width: 90%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+body main #secSeven .secContent .contentOne .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main #secSeven .secContent .contentOne .content img {
+  width: 80px;
+}
+body footer #footerSec {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 110px 0;
+}
+body footer #footerSec .secContent {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body footer #footerSec .secContent .contentOne {
+  width: 90%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+body footer #footerSec .secContent .contentOne .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 5px;
+}
+body footer #footerSec .secContent .contentOne .content h2 {
+  font-size: 16px;
+}
+body footer #footerSec .secContent .contentOne .content a {
+  font-size: 12px;
+  text-decoration: none;
+  color: gray;
+}
+body footer #footerSec .secContent .contentOne .content a:hover {
+  font-size: 12px;
+  text-decoration: none;
+  color: #ff005a;
+  transition: 0.4s;
+}
+body footer #footerSec .secContent .contentOne .content p {
+  font-size: 12px;
+  color: gray;
+  width: 200px;
+}
+body footer #footerSec .secContent .contentOne .content form {
+  display: flex;
+}
+body footer #footerSec .secContent .contentOne .content form input {
+  outline: none;
+  border: none;
+  padding: 5px 5px;
+  width: 150px;
+  font-size: 12px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+body footer #footerSec .secContent .contentOne .content form button {
+  background-image: linear-gradient(16deg, #ff005a 0%, #ff5d2d 64%, #ff7300 100%);
+  color: white;
+  width: 80px;
+  height: 30px;
+  font-size: 10px;
+  font-weight: 700;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+body footer #footerSec .secContent .contentOne .content form button:hover {
+  background-image: linear-gradient(16deg, #ff3c00 0%, #ff812d 64%, #ffd900 100%);
+  color: white;
+  padding: 10px 32px;
+  font-size: 10px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.9s;
+}
+body footer #footerSec .secContent .contentTwo p {
+  font-size: 14px;
+}
